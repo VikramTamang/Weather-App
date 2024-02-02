@@ -1,0 +1,94 @@
+<!--
+ Student Name: Subash Bikram Tamang
+ Student ID: 2407749
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building Weather App</title>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- DateTime Display -->
+  <div class="datetime">
+    <!-- DateTime element to display the current date and time -->
+    <p id="datetime"></p>
+  </div>
+  <!-- Card Section -->
+  <div class="Card">
+    <!-- DateTime element within the card to display the current date and time -->
+    <p class="card-datetime" id="card-datetime"></p>
+    <!-- Search Bar -->
+    <div class="search">
+      <!-- Input field for city -->
+      <input type="text" class="city-input" placeholder="Enter the City name" spellcheck="false">
+      <!-- Button to trigger search -->
+      <button id="searchBtn"><img src="https://static.thenounproject.com/png/424964-200.png"> </button>
+    </div>
+    <!-- Weather Information Display -->
+    <div class="weather">
+      <!-- Weather icon -->
+      <img
+        src="https://static.vecteezy.com/system/resources/previews/024/825/182/non_2x/3d-weather-icon-day-with-rain-free-png.png"
+        class="Weather-icon">
+      <!-- Temperature -->
+      <h1 class="temp">22°C</h1>
+      <!-- City name -->
+      <h2 class="City">Purna</h2>
+      <!-- Details - Humidity and Wind Speed -->
+      <div class="details">
+        <div class="col">
+          <!-- Humidity icon -->
+          <img src="https://cdn-icons-png.flaticon.com/512/219/219816.png">
+          <div>
+            <!-- Humidity value -->
+            <p class="humidity">50%</p>
+            <!-- Label for Humidity -->
+            <p>Humidity</p>
+          </div>
+          <img src="https://cdn-icons-png.flaticon.com/512/2945/2945800.png">
+          <div>
+            <p class="pressure">1413hPa</p>
+            <p>Pressure</p>
+          </div>
+        </div>
+        <div class="col">
+          <!-- Wind icon -->
+          <img src="https://cdn-icons-png.flaticon.com/512/54/54298.png">
+          <div>
+            <!-- Wind speed value -->
+            <p class="wind">15 km/h</p>
+            <!-- Label for Wind Speed -->
+            <p>Wind Speed</p>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        
+        <!-- Script reference -->
+        <script src="script.js"></script>
+        
+      </div>
+    </div>
+  </div>
+  <div class="past_data">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</body>
+<footer>
+  <p>&copy; Subash Bikram Tamang - 2407749</p>
+  <!-- Link to history.html -->
+</footer>
+
+</html>
